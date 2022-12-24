@@ -1,0 +1,91 @@
+footer {
+  background: black;
+  .container {
+    max-width: 1200px;
+    margin: 0px auto;
+    p {
+      font-family: "Fahkwang";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 42px;
+      color: #f9f2f2;
+      margin-bottom: 32px;
+      margin-top: 170px;
+    }
+    h1 {
+      font-family: "Fahkwang";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 94px;
+      margin-bottom: 120px;
+      color: #f9f2f2;
+    }
+    h2 {
+      font-family: "Fahkwang";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 42px;
+      color: #f9f2f2;
+      margin-bottom: 16px;
+    }
+    a {
+      font-family: "Fahkwang";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 38px;
+      color: #fe5900;
+      margin-bottom: 64px;
+      text-decoration: none;
+    }
+    ul {
+      display: flex;
+      column-gap: 48px;
+      margin-bottom: 120px;
+      li {
+        a {
+          font-family: "Fahkwang";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 38px;
+          text-decoration-line: underline;
+          color: #fe5900;
+        }
+      }
+    }
+    h5 {
+      font-family: "Fahkwang";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      color: rgba(249, 242, 242, 0.64);
+      span {
+        color: #fe5900;
+      }
+    }
+    h6 {
+      font-family: "Fahkwang";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      color: rgba(249, 242, 242, 0.64);
+      span {
+        color: #fe5900;
+        margin-bottom: 64px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  footer {
+    ul {
+      flex-direction: column;
+    }
+  }
+}
