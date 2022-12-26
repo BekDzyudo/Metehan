@@ -25,7 +25,7 @@ main {
     }
 
     .section {
-      padding: 100px 0px;
+      padding: 100px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -85,6 +85,13 @@ main {
       flex-direction: column;
       height: auto;
       row-gap: 50px;
+
+      .section_title {
+        order: 2;
+      }
+      .section_img {
+        order: 1;
+      }
       // .section_img_none {
       //   display: block;
       // }

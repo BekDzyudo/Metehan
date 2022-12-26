@@ -96,7 +96,7 @@ main .container {
   main .container .seven_sec {
     background: #f6f9ff; }
   main .container .section {
-    padding: 100px 0px;
+    padding: 100px 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -154,7 +154,15 @@ main .container {
     -ms-flex-direction: column;
     flex-direction: column;
     height: auto;
-    row-gap: 50px; } }
+    row-gap: 50px; }
+    main .section .section_title {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2; }
+    main .section .section_img {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; } }
 
 footer {
   background: black; }
